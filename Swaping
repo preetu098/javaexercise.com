@@ -1,0 +1,13 @@
+class Swap
+{
+  public static void main(String args[])
+  {
+      int a=3,b=12,c;
+      c=a;
+      a=b;
+      b=c;
+      System.out.println("After Swapping");
+      System.out.println("A="+a);
+      System.out.println("B="+b);
+  }
+}
